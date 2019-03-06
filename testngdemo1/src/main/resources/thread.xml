@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="thread" parallel="classes" thread-count="3">
+    <!--
+    tests级别：不同的test tag可以在不同的线程下执行；相同的test tag可以只能在同一的线程下执行
+    classes级别：相同的classes tag只能在同一个线程下执行
+    methods级别：所有用例都可以在不同线程下执行
+    thread-count：最大并大线程数
+    xml不能指定线程池
+    -->
+    <test name="thread1">
+        <classes>
+            <class name="com.raychou.testng.multiThread.MultiThreadOnXml"/>
+        </classes>
+    </test>
+
+    <test name="thread2">
+        <classes>
+            <class name="com.raychou.testng.multiThread.MultiThreadOnXml"/>
+        </classes>
+    </test>
+</suite>
