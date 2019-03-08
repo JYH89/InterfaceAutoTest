@@ -4,10 +4,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/testngdemo1/pom.xml" />
+        <option value="$PROJECT_DIR$/extentdemo1/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
   <component name="masterDetails">
     <states>
       <state key="GlobalLibrariesConfigurable.UI">
