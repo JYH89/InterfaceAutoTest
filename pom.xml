@@ -5,11 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.raychou.code</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>interface</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
         <module>testngdemo1</module>
-        <module>extentdemo1</module>
+        <module>extentrepostdemo1</module>
     </modules>
 </project>
