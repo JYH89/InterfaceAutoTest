@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/HttpClientDemo/HttpClientDemo.iml" filepath="$PROJECT_DIR$/HttpClientDemo/HttpClientDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/InterfaceAutoTest.iml" filepath="$PROJECT_DIR$/.idea/InterfaceAutoTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/extentrepostdemo1/extentrepostdemo1.iml" filepath="$PROJECT_DIR$/extentrepostdemo1/extentrepostdemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mocodemo/mocodemo.iml" filepath="$PROJECT_DIR$/mocodemo/mocodemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/testngdemo1/testngdemo1.iml" filepath="$PROJECT_DIR$/testngdemo1/testngdemo1.iml" />
     </modules>
   </component>

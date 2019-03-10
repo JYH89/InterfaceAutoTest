@@ -1,0 +1,29 @@
+[
+  {
+    "description":"这是一个会返回cookie的get请求",
+    "request":{
+      "uri":"/getCookies",
+      "method":"get"
+    },
+    "response":{
+      "cookies":{
+        "login":"false",
+        "status":"200"
+      },
+      "text":"恭喜你获得一个带cookies的请求"
+    }
+  },
+  {
+    "description":"这是一个带cookie的get请求",
+    "request":{
+      "uri":"/get/with/cookies",
+      "method":"get",
+      "cookies":{
+        "login":"true"
+      }
+    },
+    "response":{
+      "text":"这是一个带cookie信息才能访问的get请求"
+    }
+  }
+]

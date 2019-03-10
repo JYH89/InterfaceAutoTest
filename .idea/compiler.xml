@@ -7,13 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="extentrepostdemo1" />
+        <module name="HttpClientDemo" />
+        <module name="mocodemo" />
         <module name="testngdemo1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="extentdemo1" target="1.5" />
-      <module name="extentrepostdemo1" target="1.5" />
+      <module name="extentrepostdemo1" target="6" />
+      <module name="HttpClientDemo" target="1.5" />
       <module name="InterfaceAutoTest" target="1.5" />
+      <module name="mocodemo" target="1.5" />
       <module name="testngdemo1" target="1.5" />
     </bytecodeTargetLevel>
   </component>

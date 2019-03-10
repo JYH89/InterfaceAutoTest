@@ -12,5 +12,7 @@
     <modules>
         <module>testngdemo1</module>
         <module>extentrepostdemo1</module>
+        <module>mocodemo</module>
+        <module>HttpClientDemo</module>
     </modules>
 </project>
